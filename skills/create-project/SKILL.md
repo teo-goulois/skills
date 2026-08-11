@@ -100,8 +100,10 @@ conventions. Do not force Better-T-Stack or TypeScript onto it.
 
    After validation, scaffold without an agent-driven interactive prompt.
 
-7. **Establish** — install dependencies, inspect generated commands, keep this
-   skill available project-locally, and add only the necessary project context.
+7. **Establish** — install dependencies, inspect generated commands, add only
+   the necessary project context, and install `update-project` from
+   `teo-goulois/skills` project-locally for the active agent. `create-project`
+   is a bootstrap skill and does not need to remain in the generated project.
    For a web surface, install the project-local interface skills required by the
    web conventions and use the matching skill for interface work. Then run
    format checking, lint, type checks, and the smallest relevant build or test.
