@@ -31,9 +31,8 @@ The snapshots are generated from the canonical handbook published under
 `https://teogoulois.com/code/`, but are intentionally bundled so Verify and
 Update work without network access. For a TypeScript project, load
 `references/stack-policy.md` and `references/typescript.md`; for a web surface,
-also load `references/typescript-web.md`. Load `references/check.md`,
-`references/forms.md` when forms are in scope. Load `references/check.md`,
-`references/analytics.md`,
+also load `references/typescript-web.md`. Load `references/forms.md` when forms
+are in scope. Load `references/check.md`, `references/analytics.md`,
 `references/support-email.md`, or `references/project-foundation.md` only when
 those surfaces are in scope. Never edit a generated snapshot directly.
 

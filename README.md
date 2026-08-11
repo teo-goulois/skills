@@ -6,8 +6,10 @@ network access after installation.
 
 ## Skills
 
-- `create-project` turns a product brief into the smallest suitable new project.
-- `update-project` audits and incrementally realigns an existing codebase.
+- `create-project` is a bootstrap skill that turns a product brief into the
+  smallest suitable new project.
+- `update-project` is installed project-locally afterward to audit and
+  incrementally realign the codebase over time.
 
 ## Install
 
