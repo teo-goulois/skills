@@ -56,6 +56,7 @@ TypeScript onto it.
    ```
 
    Then scaffold without an interactive prompt.
+
 7. **Establish.** In the new project's root:
    - install the handbook and its platform items (see `SKILL.md`), and add its
      pointer to `AGENTS.md`;
@@ -66,6 +67,7 @@ TypeScript onto it.
      chosen yet.
 
    Skills come from the user's global setup, never from the project.
+
 8. **Verify.** Install dependencies, then run format, lint, type checks, and
    the smallest relevant build or test.
 9. **Report** the stack, the deviations and why, what was verified, and the
